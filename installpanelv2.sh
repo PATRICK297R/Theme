@@ -12,11 +12,10 @@ bash <(curl -s https://pterodactyl-installer.se) <<EOF
 panel
 panel
 db297
-Vallz007
 Asia/Jakarta
 $email
 $email
-vallzoffc
+adm
 adm
 adm
 $password
