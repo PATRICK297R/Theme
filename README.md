@@ -7,3 +7,18 @@ uninstall panel:
 ```bash
 bash <(curl https://raw.githubusercontent.com/PATRICK297R/theme/main/uninstall.sh)
 ```
+
+Wings:
+```bash
+bash <(curl https://raw.githubusercontent.com/PATRICK297R/theme/main/wings.sh)
+```
+
+Node:
+```bash
+bash <(curl https://raw.githubusercontent.com/PATRICK297R/theme/main/node.sh)
+```
+
+Install:
+```bash
+bash <(curl https://raw.githubusercontent.com/PATRICK297R/theme/main/install.sh)
+```
