@@ -54,24 +54,6 @@ install_jq() {
   sleep 1
   clear
 }
-#Check user token
-check_token() {
-  echo -e "                                                       "
-  echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY VALLZ OFFC             [+]${NC}"
-  echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "                                                       "
-  echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
-  read -r USER_TOKEN
-
-  if [ "$USER_TOKEN" = "VallzOffc" ]; then
-    echo -e "${GREEN}AKSES BERHASIL${NC}}"
-  else
-    echo -e "${GREEN}Buy dulu Weh Ke Vallzoffc No 6285641225753${NC}"
-    exit 1
-  fi
-  clear
-}
 
 # Install theme
 install_theme() {
@@ -415,7 +397,6 @@ EOF
 # Main script
 display_welcome
 install_jq
-check_token
 
 while true; do
   clear
