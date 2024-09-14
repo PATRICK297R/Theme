@@ -19,5 +19,5 @@ y
 y
 y
 yes
-y
-EOF
+A
+
