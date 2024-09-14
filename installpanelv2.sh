@@ -1,11 +1,5 @@
 
-
-# Minta input dari pengguna
-read -p "Masukkan domain: " domain
-read -p "Masukkan Email: " email
-read -p "Masukkan Password Login: " password
 read -p "Masukkan Subdomain Panel: " subdomain
-read -p "Masukkan Domainnode: " domainnode
 
 bash <(curl -s https://pterodactyl-installer.se) <<EOF
 0
@@ -13,12 +7,12 @@ panel
 panel
 db297
 Asia/Jakarta
-$email
-$email
+adm@s.id
+adm@s.id
 adm
 adm
 adm
-$password
+adm
 $subdomain
 y
 y
