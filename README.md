@@ -1,3 +1,8 @@
+Automatic Install Panel Tanpa Token" Gajelas, udh tau free malah pake token" mana dijual mahal lagi😂😂
+
+
+
+
 Install panel:
 ```bash
 bash <(curl https://raw.githubusercontent.com/PATRICK297R/theme/main/installpanelv2.sh)
